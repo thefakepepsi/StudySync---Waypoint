@@ -495,8 +495,8 @@ input.addEventListener('input', () => {
 document.getElementById('askExpertBtn').addEventListener('click', () => overlay.classList.add('open'));
 document.getElementById('closeModal').addEventListener('click', () => overlay.classList.remove('open'));
 overlay.addEventListener('click', (e) => { if(e.target === overlay) overlay.classList.remove('open'); });
-document.getElementById('meetChoice').addEventListener('click', () => window.open(meet.google.com/dsg-ttwb-rmk, '_blank'));
-document.getElementById('zoomChoice').addEventListener('click', () => window.open(https://us05web.zoom.us/j/87062969021?pwd=sQo9PLfuaaPXn3CYVmNs8E0EZiXTSu.1, '_blank'));
+document.getElementById('meetChoice').addEventListener('click', () => window.open(MEET_LINK, '_blank'));
+document.getElementById('zoomChoice').addEventListener('click', () => window.open(ZOOM_LINK, '_blank'));
 
 init();
 </script>
